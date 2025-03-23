@@ -27,9 +27,9 @@ $ python main.py
 ```
 ##  🛠️ Configuration
 The model can be configured via HGHDA.conf in the src folder
- - datapath:Set the file path of the dataset
- - ratings.setup:Defaults to -columns 0 1 2 (herb,disease,rating)
- - evaluation.setup:Folds for cross validation
- - num.factors:the number of latent factors
- - num.max.epoch:the maximum number of epoch for algorithms.
- - output.setup:the directory path of output results
+ - datapath: Set the file path of the dataset
+ - ratings.setup: Defaults to -columns 0 1 2 (herb,disease,rating)
+ - evaluation.setup: Folds for cross validation
+ - num.factors: The number of latent factors
+ - num.max.epoch: The maximum number of epoch for algorithms.
+ - output.setup: The directory path of output results
